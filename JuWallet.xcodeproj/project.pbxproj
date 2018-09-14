@@ -12,9 +12,11 @@
 		8DA7BDDF214B5B0000B6038B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA7BDDD214B5B0000B6038B /* Main.storyboard */; };
 		8DA7BDE1214B5B0100B6038B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DA7BDE0214B5B0100B6038B /* Assets.xcassets */; };
 		8DA7BDE4214B5B0100B6038B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA7BDE2214B5B0100B6038B /* LaunchScreen.storyboard */; };
+		C51B791DA7CD1DEC5513AD10 /* libPods-JuWallet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C38B022B4578E6C6BB1848CD /* libPods-JuWallet.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7DFF3BB0B80BBF9F1FBAC7C2 /* Pods-JuWallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JuWallet.release.xcconfig"; path = "Pods/Target Support Files/Pods-JuWallet/Pods-JuWallet.release.xcconfig"; sourceTree = "<group>"; };
 		8DA7BDD6214B5B0000B6038B /* JuWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JuWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DA7BDD9214B5B0000B6038B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DA7BDDB214B5B0000B6038B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		8DA7BDE0214B5B0100B6038B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DA7BDE3214B5B0100B6038B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DA7BDE5214B5B0100B6038B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B71DBBE298D2B6353AAC29C2 /* Pods-JuWallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JuWallet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JuWallet/Pods-JuWallet.debug.xcconfig"; sourceTree = "<group>"; };
+		C38B022B4578E6C6BB1848CD /* libPods-JuWallet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JuWallet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C51B791DA7CD1DEC5513AD10 /* libPods-JuWallet.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		402D5C0292A65924E4DF72ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C38B022B4578E6C6BB1848CD /* libPods-JuWallet.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8DA7BDCD214B5B0000B6038B = {
 			isa = PBXGroup;
 			children = (
 				8DA7BDD8214B5B0000B6038B /* JuWallet */,
 				8DA7BDD7214B5B0000B6038B /* Products */,
+				8F49B1ADC289951DA528C682 /* Pods */,
+				402D5C0292A65924E4DF72ED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,7 +69,12 @@
 		8DA7BDD8214B5B0000B6038B /* JuWallet */ = {
 			isa = PBXGroup;
 			children = (
-				8DA7BDD9214B5B0000B6038B /* AppDelegate.swift */,
+				8DA7BDED214B5C9D00B6038B /* Main */,
+				8DA7BDF0214B5C9D00B6038B /* Modules */,
+				8DA7BDF6214B5C9D00B6038B /* Package */,
+				8DA7BDEC214B5C9D00B6038B /* Resource */,
+				8DA7BDF8214B5C9D00B6038B /* Service */,
+				8DA7BDEB214B5C9D00B6038B /* ThirdParty */,
 				8DA7BDDB214B5B0000B6038B /* ViewController.swift */,
 				8DA7BDDD214B5B0000B6038B /* Main.storyboard */,
 				8DA7BDE0214B5B0100B6038B /* Assets.xcassets */,
@@ -64,6 +84,122 @@
 			path = JuWallet;
 			sourceTree = "<group>";
 		};
+		8DA7BDEB214B5C9D00B6038B /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		8DA7BDEC214B5C9D00B6038B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		8DA7BDED214B5C9D00B6038B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8DA7BDEE214B5C9D00B6038B /* Delegate */,
+				8DA7BDEF214B5C9D00B6038B /* Base */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8DA7BDEE214B5C9D00B6038B /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				8DA7BDD9214B5B0000B6038B /* AppDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		8DA7BDEF214B5C9D00B6038B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		8DA7BDF0214B5C9D00B6038B /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				8DA7BDF1214B5C9D00B6038B /* Asset */,
+				8DA7BDF3214B5C9D00B6038B /* Quotes */,
+				8DA7BDF4214B5C9D00B6038B /* Setting */,
+				8DA7BDF5214B5C9D00B6038B /* Advisory */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		8DA7BDF1214B5C9D00B6038B /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				8DA7BDF2214B5C9D00B6038B /* Controller */,
+			);
+			path = Asset;
+			sourceTree = "<group>";
+		};
+		8DA7BDF2214B5C9D00B6038B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8DA7BDF3214B5C9D00B6038B /* Quotes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Quotes;
+			sourceTree = "<group>";
+		};
+		8DA7BDF4214B5C9D00B6038B /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		8DA7BDF5214B5C9D00B6038B /* Advisory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Advisory;
+			sourceTree = "<group>";
+		};
+		8DA7BDF6214B5C9D00B6038B /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				8DA7BDF7214B5C9D00B6038B /* Extension */,
+			);
+			path = Package;
+			sourceTree = "<group>";
+		};
+		8DA7BDF7214B5C9D00B6038B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		8DA7BDF8214B5C9D00B6038B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		8F49B1ADC289951DA528C682 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B71DBBE298D2B6353AAC29C2 /* Pods-JuWallet.debug.xcconfig */,
+				7DFF3BB0B80BBF9F1FBAC7C2 /* Pods-JuWallet.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8DA7BDE8214B5B0100B6038B /* Build configuration list for PBXNativeTarget "JuWallet" */;
 			buildPhases = (
+				C9BBB0AAC42A0A5F71268A01 /* [CP] Check Pods Manifest.lock */,
 				8DA7BDD2214B5B0000B6038B /* Sources */,
 				8DA7BDD3214B5B0000B6038B /* Frameworks */,
 				8DA7BDD4214B5B0000B6038B /* Resources */,
+				6A16A0729FE638E4462DDEF5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,6 +267,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A16A0729FE638E4462DDEF5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JuWallet/Pods-JuWallet-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JuWallet/Pods-JuWallet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9BBB0AAC42A0A5F71268A01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JuWallet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8DA7BDD2214B5B0000B6038B /* Sources */ = {
@@ -278,10 +455,13 @@
 		};
 		8DA7BDE9214B5B0100B6038B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B71DBBE298D2B6353AAC29C2 /* Pods-JuWallet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4ALARBMUQ;
 				INFOPLIST_FILE = JuWallet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -289,16 +469,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.JuWallet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		8DA7BDEA214B5B0100B6038B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DFF3BB0B80BBF9F1FBAC7C2 /* Pods-JuWallet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4ALARBMUQ;
 				INFOPLIST_FILE = JuWallet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +489,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.JuWallet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
