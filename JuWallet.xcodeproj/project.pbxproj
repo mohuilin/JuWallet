@@ -8,10 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		8DA7BDDA214B5B0000B6038B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA7BDD9214B5B0000B6038B /* AppDelegate.swift */; };
-		8DA7BDDC214B5B0000B6038B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA7BDDB214B5B0000B6038B /* ViewController.swift */; };
 		8DA7BDDF214B5B0000B6038B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA7BDDD214B5B0000B6038B /* Main.storyboard */; };
 		8DA7BDE1214B5B0100B6038B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DA7BDE0214B5B0100B6038B /* Assets.xcassets */; };
 		8DA7BDE4214B5B0100B6038B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA7BDE2214B5B0100B6038B /* LaunchScreen.storyboard */; };
+		8DA7BDFA214B5EBA00B6038B /* JWMainAssetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA7BDF9214B5EBA00B6038B /* JWMainAssetController.swift */; };
+		8DA7BDFD214B5ED000B6038B /* JWQuotesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA7BDFC214B5ED000B6038B /* JWQuotesController.swift */; };
+		8DA7BE00214B5EE300B6038B /* JWSettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA7BDFF214B5EE300B6038B /* JWSettingController.swift */; };
+		8DA7BE03214B5F1F00B6038B /* JWAdvisoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA7BE02214B5F1F00B6038B /* JWAdvisoryController.swift */; };
+		8DA7BE06214B5F5A00B6038B /* JWTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA7BE05214B5F5A00B6038B /* JWTabBarController.swift */; };
 		C51B791DA7CD1DEC5513AD10 /* libPods-JuWallet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C38B022B4578E6C6BB1848CD /* libPods-JuWallet.a */; };
 /* End PBXBuildFile section */
 
@@ -19,11 +23,15 @@
 		7DFF3BB0B80BBF9F1FBAC7C2 /* Pods-JuWallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JuWallet.release.xcconfig"; path = "Pods/Target Support Files/Pods-JuWallet/Pods-JuWallet.release.xcconfig"; sourceTree = "<group>"; };
 		8DA7BDD6214B5B0000B6038B /* JuWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JuWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DA7BDD9214B5B0000B6038B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8DA7BDDB214B5B0000B6038B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8DA7BDDE214B5B0000B6038B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DA7BDE0214B5B0100B6038B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DA7BDE3214B5B0100B6038B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DA7BDE5214B5B0100B6038B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DA7BDF9214B5EBA00B6038B /* JWMainAssetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWMainAssetController.swift; sourceTree = "<group>"; };
+		8DA7BDFC214B5ED000B6038B /* JWQuotesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWQuotesController.swift; sourceTree = "<group>"; };
+		8DA7BDFF214B5EE300B6038B /* JWSettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWSettingController.swift; sourceTree = "<group>"; };
+		8DA7BE02214B5F1F00B6038B /* JWAdvisoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWAdvisoryController.swift; sourceTree = "<group>"; };
+		8DA7BE05214B5F5A00B6038B /* JWTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWTabBarController.swift; sourceTree = "<group>"; };
 		B71DBBE298D2B6353AAC29C2 /* Pods-JuWallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JuWallet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JuWallet/Pods-JuWallet.debug.xcconfig"; sourceTree = "<group>"; };
 		C38B022B4578E6C6BB1848CD /* libPods-JuWallet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JuWallet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -75,7 +83,6 @@
 				8DA7BDEC214B5C9D00B6038B /* Resource */,
 				8DA7BDF8214B5C9D00B6038B /* Service */,
 				8DA7BDEB214B5C9D00B6038B /* ThirdParty */,
-				8DA7BDDB214B5B0000B6038B /* ViewController.swift */,
 				8DA7BDDD214B5B0000B6038B /* Main.storyboard */,
 				8DA7BDE0214B5B0100B6038B /* Assets.xcassets */,
 				8DA7BDE2214B5B0100B6038B /* LaunchScreen.storyboard */,
@@ -118,6 +125,7 @@
 		8DA7BDEF214B5C9D00B6038B /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				8DA7BE04214B5F2800B6038B /* KeyController */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -144,6 +152,7 @@
 		8DA7BDF2214B5C9D00B6038B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8DA7BDF9214B5EBA00B6038B /* JWMainAssetController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -151,6 +160,7 @@
 		8DA7BDF3214B5C9D00B6038B /* Quotes */ = {
 			isa = PBXGroup;
 			children = (
+				8DA7BDFB214B5EBE00B6038B /* Controller */,
 			);
 			path = Quotes;
 			sourceTree = "<group>";
@@ -158,6 +168,7 @@
 		8DA7BDF4214B5C9D00B6038B /* Setting */ = {
 			isa = PBXGroup;
 			children = (
+				8DA7BDFE214B5ED400B6038B /* Controller */,
 			);
 			path = Setting;
 			sourceTree = "<group>";
@@ -165,6 +176,7 @@
 		8DA7BDF5214B5C9D00B6038B /* Advisory */ = {
 			isa = PBXGroup;
 			children = (
+				8DA7BE01214B5EE800B6038B /* Controller */,
 			);
 			path = Advisory;
 			sourceTree = "<group>";
@@ -189,6 +201,38 @@
 			children = (
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		8DA7BDFB214B5EBE00B6038B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8DA7BDFC214B5ED000B6038B /* JWQuotesController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8DA7BDFE214B5ED400B6038B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8DA7BDFF214B5EE300B6038B /* JWSettingController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8DA7BE01214B5EE800B6038B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8DA7BE02214B5F1F00B6038B /* JWAdvisoryController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8DA7BE04214B5F2800B6038B /* KeyController */ = {
+			isa = PBXGroup;
+			children = (
+				8DA7BE05214B5F5A00B6038B /* JWTabBarController.swift */,
+			);
+			path = KeyController;
 			sourceTree = "<group>";
 		};
 		8F49B1ADC289951DA528C682 /* Pods */ = {
@@ -228,6 +272,7 @@
 		8DA7BDCE214B5B0000B6038B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JW;
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = juwallet;
@@ -312,8 +357,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DA7BDDC214B5B0000B6038B /* ViewController.swift in Sources */,
+				8DA7BDFD214B5ED000B6038B /* JWQuotesController.swift in Sources */,
+				8DA7BDFA214B5EBA00B6038B /* JWMainAssetController.swift in Sources */,
+				8DA7BE03214B5F1F00B6038B /* JWAdvisoryController.swift in Sources */,
+				8DA7BE00214B5EE300B6038B /* JWSettingController.swift in Sources */,
 				8DA7BDDA214B5B0000B6038B /* AppDelegate.swift in Sources */,
+				8DA7BE06214B5F5A00B6038B /* JWTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
