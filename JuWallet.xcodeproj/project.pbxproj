@@ -16,6 +16,7 @@
 		8DA7BE00214B5EE300B6038B /* JWSettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA7BDFF214B5EE300B6038B /* JWSettingController.swift */; };
 		8DA7BE03214B5F1F00B6038B /* JWAdvisoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA7BE02214B5F1F00B6038B /* JWAdvisoryController.swift */; };
 		8DA7BE06214B5F5A00B6038B /* JWTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA7BE05214B5F5A00B6038B /* JWTabBarController.swift */; };
+		8DA7BE08214B644500B6038B /* UIView+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA7BE07214B644500B6038B /* UIView+Frame.swift */; };
 		C51B791DA7CD1DEC5513AD10 /* libPods-JuWallet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C38B022B4578E6C6BB1848CD /* libPods-JuWallet.a */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		8DA7BDFF214B5EE300B6038B /* JWSettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWSettingController.swift; sourceTree = "<group>"; };
 		8DA7BE02214B5F1F00B6038B /* JWAdvisoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWAdvisoryController.swift; sourceTree = "<group>"; };
 		8DA7BE05214B5F5A00B6038B /* JWTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWTabBarController.swift; sourceTree = "<group>"; };
+		8DA7BE07214B644500B6038B /* UIView+Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Frame.swift"; sourceTree = "<group>"; };
 		B71DBBE298D2B6353AAC29C2 /* Pods-JuWallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JuWallet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JuWallet/Pods-JuWallet.debug.xcconfig"; sourceTree = "<group>"; };
 		C38B022B4578E6C6BB1848CD /* libPods-JuWallet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JuWallet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -192,6 +194,7 @@
 		8DA7BDF7214B5C9D00B6038B /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				8DA7BE07214B644500B6038B /* UIView+Frame.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 				8DA7BDFA214B5EBA00B6038B /* JWMainAssetController.swift in Sources */,
 				8DA7BE03214B5F1F00B6038B /* JWAdvisoryController.swift in Sources */,
 				8DA7BE00214B5EE300B6038B /* JWSettingController.swift in Sources */,
+				8DA7BE08214B644500B6038B /* UIView+Frame.swift in Sources */,
 				8DA7BDDA214B5B0000B6038B /* AppDelegate.swift in Sources */,
 				8DA7BE06214B5F5A00B6038B /* JWTabBarController.swift in Sources */,
 			);
